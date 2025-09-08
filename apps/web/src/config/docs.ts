@@ -24,8 +24,8 @@ export const docsConfig: DocsConfig = {
   sidebarNav: [
     {
       title: {
-        en: 'Getting Started',
-        pt: 'Começando',
+        en: 'The Universal Decoder Ring',
+        pt: 'O Anel Decodificador Universal',
       },
 
       items: [
@@ -39,98 +39,225 @@ export const docsConfig: DocsConfig = {
 
           items: [],
         },
-
+      ],
+    },
+    {
+      title: {
+        en: 'Volumes',
+        pt: 'Volumes',
+      },
+      items: [
         {
-          href: '/docs/adding-new-docs',
-
+          href: '/docs/volumes/appendix',
           title: {
-            en: 'Adding new docs',
-            pt: 'Adicionando novos documentos',
+            en: 'Appendix: The Operator\'s Toolkit',
+            pt: 'Apêndice: O Kit de Ferramentas do Operador',
           },
-
           items: [],
         },
-
         {
-          href: '/docs/customizing',
-
+          href: '/docs/volumes/epilogue',
           title: {
-            en: 'Customizing',
-            pt: 'Personalizando',
+            en: 'Epilogue: Eden Isn’t Elsewhere',
+            pt: 'Epílogo: O Éden Não Está Em Outro Lugar',
           },
-
           items: [],
         },
-
         {
           title: {
-            en: 'MDX',
+            en: 'Volume I',
+            pt: 'Volume I',
           },
-
-          label: {
-            en: 'New',
-            pt: 'Novo',
-          },
-
           items: [
             {
-              href: '/docs/mdx/frontmatter',
-
+              href: '/docs/volumes/volume-i/chapter-1',
               title: {
-                en: 'Frontmatter',
-                pt: 'Cabeçalho de metadados',
+                en: 'Chapter 1',
+                pt: 'Capítulo 1',
               },
-
-              label: {
-                en: 'New',
-                pt: 'Novo',
-              },
-
               items: [],
             },
-
             {
-              href: '/docs/mdx/code',
-
+              href: '/docs/volumes/volume-i/chapter-2',
               title: {
-                en: 'Code',
-                pt: 'Código',
+                en: 'Chapter 2',
+                pt: 'Capítulo 2',
               },
-
-              label: {
-                en: 'New',
-                pt: 'Novo',
-              },
-
               items: [],
             },
-
             {
-              href: '/docs/mdx/components',
-
+              href: '/docs/volumes/volume-i/chapter-3',
               title: {
-                en: 'Components',
-                pt: 'Componentes',
+                en: 'Chapter 3',
+                pt: 'Capítulo 3',
               },
-
-              label: {
-                en: 'New',
-                pt: 'Novo',
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-i/chapter-4',
+              title: {
+                en: 'Chapter 4',
+                pt: 'Capítulo 4',
               },
-
               items: [],
             },
           ],
         },
-
         {
-          href: '/docs/changelog',
-
           title: {
-            en: 'Changelog',
-            pt: 'Histórico de alterações',
+            en: 'Volume II',
+            pt: 'Volume II',
           },
-
+          items: [
+            {
+              href: '/docs/volumes/volume-ii/chapter-5',
+              title: {
+                en: 'Chapter 5',
+                pt: 'Capítulo 5',
+              },
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-ii/chapter-6',
+              title: {
+                en: 'Chapter 6',
+                pt: 'Capítulo 6',
+              },
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-ii/chapter-7',
+              title: {
+                en: 'Chapter 7',
+                pt: 'Capítulo 7',
+              },
+              items: [],
+            },
+          ],
+        },
+        {
+          title: {
+            en: 'Volume III',
+            pt: 'Volume III',
+          },
+          items: [
+            {
+              href: '/docs/volumes/volume-iii/chapter-8',
+              title: {
+                en: 'Chapter 8',
+                pt: 'Capítulo 8',
+              },
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-iii/chapter-9',
+              title: {
+                en: 'Chapter 9',
+                pt: 'Capítulo 9',
+              },
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-iii/chapter-10',
+              title: {
+                en: 'Chapter 10',
+                pt: 'Capítulo 10',
+              },
+              items: [],
+            },
+          ],
+        },
+        {
+          title: {
+            en: 'Volume IV',
+            pt: 'Volume IV',
+          },
+          items: [
+            {
+              href: '/docs/volumes/volume-iv/chapter-11',
+              title: {
+                en: 'Chapter 11',
+                pt: 'Capítulo 11',
+              },
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-iv/chapter-12',
+              title: {
+                en: 'Chapter 12',
+                pt: 'Capítulo 12',
+              },
+              items: [],
+            },
+          ],
+        },
+        {
+          title: {
+            en: 'Volume V',
+            pt: 'Volume V',
+          },
+          items: [
+            {
+              href: '/docs/volumes/volume-v/chapter-13',
+              title: {
+                en: 'Chapter 13',
+                pt: 'Capítulo 13',
+              },
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-v/chapter-14',
+              title: {
+                en: 'Chapter 14',
+                pt: 'Capítulo 14',
+              },
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-v/chapter-15',
+              title: {
+                en: 'Chapter 15',
+                pt: 'Capítulo 15',
+              },
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-v/chapter-16',
+              title: {
+                en: 'Chapter 16',
+                pt: 'Capítulo 16',
+              },
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-v/chapter-17',
+              title: {
+                en: 'Chapter 17',
+                pt: 'Capítulo 17',
+              },
+              items: [],
+            },
+          ],
+        },
+        {
+          title: {
+            en: 'Volume VI',
+            pt: 'Volume VI',
+          },
+          items: [],
+        },
+        {
+          title: {
+            en: 'Volume VII',
+            pt: 'Volume VII',
+          },
+          items: [],
+        },
+        {
+          title: {
+            en: 'Volume VIII',
+            pt: 'Volume VIII',
+          },
           items: [],
         },
       ],

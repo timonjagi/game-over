@@ -54,6 +54,14 @@ export const docsConfig: DocsConfig = {
           },
           items: [
             {
+              href: '/docs/volumes/volume-i',
+              title: {
+                en: 'Introduction',
+                pt: 'Introdução',
+              },
+              items: [],
+            },
+            {
               href: '/docs/volumes/volume-i/chapter-1',
               title: {
                 en: 'Chapter 1',
@@ -94,6 +102,14 @@ export const docsConfig: DocsConfig = {
           },
           items: [
             {
+              href: '/docs/volumes/volume-ii',
+              title: {
+                en: 'Introduction',
+                pt: 'Introdução',
+              },
+              items: [],
+            },
+            {
               href: '/docs/volumes/volume-ii/chapter-5',
               title: {
                 en: 'Chapter 5',
@@ -125,6 +141,14 @@ export const docsConfig: DocsConfig = {
             pt: 'Volume III',
           },
           items: [
+            {
+              href: '/docs/volumes/volume-iii',
+              title: {
+                en: 'Introduction',
+                pt: 'Introdução',
+              },
+              items: [],
+            },
             {
               href: '/docs/volumes/volume-iii/chapter-8',
               title: {
@@ -158,6 +182,14 @@ export const docsConfig: DocsConfig = {
           },
           items: [
             {
+              href: '/docs/volumes/volume-iv',
+              title: {
+                en: 'Introduction',
+                pt: 'Introdução',
+              },
+              items: [],
+            },
+            {
               href: '/docs/volumes/volume-iv/chapter-11',
               title: {
                 en: 'Chapter 11',
@@ -181,6 +213,14 @@ export const docsConfig: DocsConfig = {
             pt: 'Volume V',
           },
           items: [
+            {
+              href: '/docs/volumes/volume-v',
+              title: {
+                en: 'Introduction',
+                pt: 'Introdução',
+              },
+              items: [],
+            },
             {
               href: '/docs/volumes/volume-v/chapter-13',
               title: {
@@ -230,6 +270,14 @@ export const docsConfig: DocsConfig = {
           },
           items: [
             {
+              href: '/docs/volumes/volume-vi',
+              title: {
+                en: 'Introduction',
+                pt: 'Introdução',
+              },
+              items: [],
+            },
+            {
               href: '/docs/volumes/volume-vi/chapter-18',
               title: {
                 en: 'Chapter 18',
@@ -254,6 +302,14 @@ export const docsConfig: DocsConfig = {
           },
           items: [
             {
+              href: '/docs/volumes/volume-vii',
+              title: {
+                en: 'Introduction',
+                pt: 'Introdução',
+              },
+              items: [],
+            },
+            {
               href: '/docs/volumes/volume-vii/chapter-20',
               title: {
                 en: 'Chapter 20',
@@ -277,6 +333,14 @@ export const docsConfig: DocsConfig = {
             pt: 'Volume VIII',
           },
           items: [
+            {
+              href: '/docs/volumes/volume-viii',
+              title: {
+                en: 'Introduction',
+                pt: 'Introdução',
+              },
+              items: [],
+            },
             {
               href: '/docs/volumes/volume-viii/chapter-22',
               title: {

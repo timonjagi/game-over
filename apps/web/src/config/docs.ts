@@ -48,22 +48,6 @@ export const docsConfig: DocsConfig = {
       },
       items: [
         {
-          href: '/docs/volumes/appendix',
-          title: {
-            en: 'Appendix: The Operator\'s Toolkit',
-            pt: 'Apêndice: O Kit de Ferramentas do Operador',
-          },
-          items: [],
-        },
-        {
-          href: '/docs/volumes/epilogue',
-          title: {
-            en: 'Epilogue: Eden Isn’t Elsewhere',
-            pt: 'Epílogo: O Éden Não Está Em Outro Lugar',
-          },
-          items: [],
-        },
-        {
           title: {
             en: 'Volume I',
             pt: 'Volume I',
@@ -244,19 +228,86 @@ export const docsConfig: DocsConfig = {
             en: 'Volume VI',
             pt: 'Volume VI',
           },
-          items: [],
+          items: [
+            {
+              href: '/docs/volumes/volume-vi/chapter-18',
+              title: {
+                en: 'Chapter 18',
+                pt: 'Capítulo 18',
+              },
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-vi/chapter-19',
+              title: {
+                en: 'Chapter 19',
+                pt: 'Capítulo 19',
+              },
+              items: [],
+            },
+          ],
         },
         {
           title: {
             en: 'Volume VII',
             pt: 'Volume VII',
           },
-          items: [],
+          items: [
+            {
+              href: '/docs/volumes/volume-vii/chapter-20',
+              title: {
+                en: 'Chapter 20',
+                pt: 'Capítulo 20',
+              },
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-vii/chapter-21',
+              title: {
+                en: 'Chapter 21',
+                pt: 'Capítulo 21',
+              },
+              items: [],
+            },
+          ],
         },
         {
           title: {
             en: 'Volume VIII',
             pt: 'Volume VIII',
+          },
+          items: [
+            {
+              href: '/docs/volumes/volume-viii/chapter-22',
+              title: {
+                en: 'Chapter 22',
+                pt: 'Capítulo 22',
+              },
+              items: [],
+            },
+            {
+              href: '/docs/volumes/volume-viii/chapter-23',
+              title: {
+                en: 'Chapter 23',
+                pt: 'Capítulo 23',
+              },
+              items: [],
+            },
+          ],
+        },
+        {
+          href: '/docs/volumes/appendix',
+          title: {
+            en: 'Appendix: The Operator\'s Toolkit',
+            pt: 'Apêndice: O Kit de Ferramentas do Operador',
+          },
+          items: [],
+        },
+        {
+          href: '/docs/volumes/epilogue',
+          title: {
+            en: 'Epilogue: Eden Isn’t Elsewhere',
+            pt: 'Epílogo: O Éden Não Está Em Outro Lugar',
           },
           items: [],
         },
